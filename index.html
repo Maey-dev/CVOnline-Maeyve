@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CV Online | Maeyve Dias Aguiar</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Menu fixo no topo com links internos -->
+    <header>
+      <nav class="menu">
+        <ul>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#formacao">Formação</a></li>
+          <li><a href="#portfolio">Portfólio</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Seção SOBRE MIM -->
+      <section id="sobre" class="secao">
+        <h1>Maeyve Dias Aguiar</h1>
+        <img
+          src="imgs/foto.png"
+          alt="Foto de perfil de Maeyve"
+          class="foto-perfil"
+        />
+        <h2>Sobre mim</h2>
+        <p>
+          Sou uma pessoa apaixonada por tecnologia, desenvolvimento web e
+          aprender coisas novas. Meus hobbies incluem leitura, design e
+          programação criativa.
+        </p>
+      </section>
+
+      <!-- Seção FORMAÇÃO -->
+      <section id="formacao" class="secao">
+        <h2>Formação e Idiomas</h2>
+        <ul>
+          <li>Curso Superior em ANÁLISE E DESENVOLVIMENTO DE SISTEMAS</li>
+          <li>Ensino Médio Completo</li>
+          <li>Idiomas: Português (fluente), Inglês (intermediário)</li>
+        </ul>
+      </section>
+
+      <!-- Seção PORTFÓLIO -->
+      <section id="portfolio" class="secao">
+        <h2>Portfólio</h2>
+        <p>Confira abaixo alguns dos meus projetos:</p>
+
+        <div class="portfolio-grid">
+          <!-- Card 1 -->
+          <div class="card">
+            <img src="imgs/projeto1.jpg" alt="Projeto 1" />
+            <h3>Fundamentos_de_desenvolvimento_de_software</h3>
+            <p>Projeto com intuito de aplicar os fundamentos e tbm o bootstrap.</p>
+            <a href="https://maey-dev.github.io/Fundamentos_de_desenvolvimento_de_software/" target="_blank">Ver mais</a>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="card">
+            <img src="https://plus.unsplash.com/premium_photo-1663023612721-e588768ef403?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Projeto 2" />
+            <h3>Projeto 2</h3>
+            <p>Descrição do projeto 2.</p>
+            <a href="#" target="_blank">Ver mais</a>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="card">
+            <img src="https://plus.unsplash.com/premium_photo-1663023612721-e588768ef403?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Projeto 3" />
+            <h3>Projeto 3</h3>
+            <p>Descrição do projeto 3.</p>
+            <a href="#" target="_blank">Ver mais</a>
+          </div>
+
+          <!-- Card 4 -->
+          <div class="card">
+            <img src="https://plus.unsplash.com/premium_photo-1663023612721-e588768ef403?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Projeto 4" />
+            <h3>Projeto 4</h3>
+            <p>Descrição do projeto 4.</p>
+            <a href="#" target="_blank">Ver mais</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Seção CONTATO -->
+      <section id="contato" class="secao">
+        <h2>Contato</h2>
+        <form>
+          <label for="nome">Nome:</label>
+          <input type="text" id="nome" name="nome" required />
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="mensagem">Mensagem:</label>
+          <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+
+          <button type="submit">Enviar</button>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
